@@ -1,5 +1,4 @@
-FROM mcr.microsoft.com/mssql/server
-
+FROM mcr.microsoft.com/mssql/server:2022-CU14-ubuntu-22.04
 # Switch to root user for access to apt-get install
 USER root
 
